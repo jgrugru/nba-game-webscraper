@@ -1,0 +1,81 @@
+date,time,is_home,location,opposing_team
+"Thu, Oct 24",9:00 PM,False,Ball Arena,Nuggets
+"Sat, Oct 26",7:00 PM,False,United Center,Bulls
+"Sun, Oct 27",6:00 PM,True,Paycom Center,Hawks
+"Wed, Oct 30",8:30 PM,True,Paycom Center,Spurs
+"Fri, Nov 1",9:00 PM,False,Moda Center,Trail Blazers
+"Sat, Nov 2",9:30 PM,False,Intuit Dome,Clippers
+"Mon, Nov 4",8:15 PM,True,Paycom Center,Magic
+"Wed, Nov 6",8:00 PM,False,Ball Arena,Nuggets
+"Fri, Nov 8",7:00 PM,True,Paycom Center,Rockets
+"Sun, Nov 10",6:00 PM,True,Paycom Center,Warriors
+"Mon, Nov 11",7:00 PM,True,Paycom Center,Clippers
+"Wed, Nov 13",6:30 PM,True,Paycom Center,Pelicans
+"Fri, Nov 15",7:00 PM,True,Paycom Center,Suns
+"Sun, Nov 17",6:00 PM,True,Paycom Center,Mavericks
+"Tue, Nov 19",8:30 PM,False,Frost Bank Center,Spurs
+"Wed, Nov 20",7:00 PM,True,Paycom Center,Trail Blazers
+"Mon, Nov 25",9:00 PM,False,Golden 1 Center,Kings
+"Wed, Nov 27",9:00 PM,False,Chase Center,Warriors
+"Fri, Nov 29",9:00 PM,False,Crypto.com Arena,Lakers
+"Sun, Dec 1",6:00 PM,False,Toyota Center,Rockets
+"Tue, Dec 3",7:00 PM,True,Paycom Center,Jazz
+"Thu, Dec 5",6:30 PM,False,Scotiabank Arena,Raptors
+"Sat, Dec 7",6:00 PM,False,Smoothie King Center,Pelicans
+"Thu, Dec 19",6:00 PM,False,Kia Center,Magic
+"Fri, Dec 20",7:00 PM,False,Kaseya Center,Heat
+"Mon, Dec 23",7:00 PM,True,Paycom Center,Wizards
+"Thu, Dec 26",6:00 PM,False,Gainbridge Fieldhouse,Pacers
+"Sat, Dec 28",5:00 PM,False,Spectrum Center,Hornets
+"Sun, Dec 29",6:00 PM,True,Paycom Center,Grizzlies
+"Tue, Dec 31",7:00 PM,True,Paycom Center,Timberwolves
+"Thu, Jan 2",7:00 PM,True,Paycom Center,Clippers
+"Fri, Jan 3",7:00 PM,True,Paycom Center,Knicks
+"Sun, Jan 5",2:30 PM,True,Paycom Center,Celtics
+"Wed, Jan 8",6:00 PM,False,Rocket Mortgage FieldHouse,Cavaliers
+"Fri, Jan 10",6:30 PM,False,Madison Square Garden,Knicks
+"Sun, Jan 12",5:00 PM,False,Capital One Arena,Wizards
+"Tue, Jan 14",6:00 PM,False,Wells Fargo Center,76ers
+"Thu, Jan 16",7:00 PM,True,Paycom Center,Cavaliers
+"Fri, Jan 17",7:30 PM,False,American Airlines Center,Mavericks
+"Sun, Jan 19",6:00 PM,True,Paycom Center,Nets
+"Wed, Jan 22",7:00 PM,True,Paycom Center,Jazz
+"Thu, Jan 23",7:00 PM,True,Paycom Center,Mavericks
+"Sun, Jan 26",5:00 PM,False,Moda Center,Trail Blazers
+"Wed, Jan 29",9:00 PM,False,Chase Center,Warriors
+"Sat, Feb 1",7:00 PM,True,Paycom Center,Kings
+"Mon, Feb 3",7:00 PM,True,Paycom Center,Bucks
+"Wed, Feb 5",7:00 PM,True,Paycom Center,Suns
+"Fri, Feb 7",7:00 PM,True,Paycom Center,Raptors
+"Sat, Feb 8",7:00 PM,False,FedExForum,Grizzlies
+"Mon, Feb 10",7:00 PM,True,Paycom Center,Pelicans
+"Wed, Feb 12",7:00 PM,True,Paycom Center,Heat
+"Thu, Feb 13",7:30 PM,False,Target Center,Timberwolves
+"Fri, Feb 21",8:30 PM,False,Delta Center,Jazz
+"Sun, Feb 23",8:30 PM,False,Target Center,Timberwolves
+"Mon, Feb 24",7:00 PM,True,Paycom Center,Timberwolves
+"Wed, Feb 26",6:30 PM,False,Barclays Center,Nets
+"Fri, Feb 28",6:30 PM,False,State Farm Arena,Hawks
+"Sun, Mar 2",6:00 PM,False,Frost Bank Center,Spurs
+"Mon, Mar 3",7:00 PM,True,Paycom Center,Rockets
+"Wed, Mar 5",7:00 PM,False,FedExForum,Grizzlies
+"Fri, Mar 7",7:00 PM,True,Paycom Center,Trail Blazers
+"Sun, Mar 9",12:00 PM,True,Paycom Center,Nuggets
+"Mon, Mar 10",7:00 PM,True,Paycom Center,Nuggets
+"Wed, Mar 12",6:30 PM,False,TD Garden,Celtics
+"Sat, Mar 15",6:00 PM,False,Little Caesars Arena,Pistons
+"Sun, Mar 16",8:00 PM,False,Fiserv Forum,Bucks
+"Wed, Mar 19",7:00 PM,True,Paycom Center,76ers
+"Fri, Mar 21",7:00 PM,True,Paycom Center,Hornets
+"Sun, Mar 23",8:00 PM,False,Intuit Dome,Clippers
+"Tue, Mar 25",9:00 PM,False,Golden 1 Center,Kings
+"Thu, Mar 27",7:00 PM,True,Paycom Center,Grizzlies
+"Sat, Mar 29",7:00 PM,True,Paycom Center,Pacers
+"Mon, Mar 31",7:00 PM,True,Paycom Center,Bulls
+"Wed, Apr 2",7:00 PM,True,Paycom Center,Pistons
+"Fri, Apr 4",7:00 PM,False,Toyota Center,Rockets
+"Sun, Apr 6",2:30 PM,True,Paycom Center,Lakers
+"Tue, Apr 8",7:00 PM,True,Paycom Center,Lakers
+"Wed, Apr 9",9:00 PM,False,Footprint Center,Suns
+"Fri, Apr 11",8:30 PM,False,Delta Center,Jazz
+"Sun, Apr 13",2:30 PM,False,Smoothie King Center,Pelicans
