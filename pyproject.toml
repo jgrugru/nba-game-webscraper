@@ -1,7 +1,7 @@
 [project]
 name = "okc-thunder-calendar"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.0.1"
+description = "Webscraping tool to grab NBA games from nba.com and format into a csv."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
