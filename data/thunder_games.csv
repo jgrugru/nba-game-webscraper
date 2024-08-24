@@ -1,81 +1,81 @@
-date,time,is_home,location,opposing_team
-"Thu, Oct 24",9:00 PM,False,Ball Arena,Nuggets
-"Sat, Oct 26",7:00 PM,False,United Center,Bulls
-"Sun, Oct 27",6:00 PM,True,Paycom Center,Hawks
-"Wed, Oct 30",8:30 PM,True,Paycom Center,Spurs
-"Fri, Nov 1",9:00 PM,False,Moda Center,Trail Blazers
-"Sat, Nov 2",9:30 PM,False,Intuit Dome,Clippers
-"Mon, Nov 4",8:15 PM,True,Paycom Center,Magic
-"Wed, Nov 6",8:00 PM,False,Ball Arena,Nuggets
-"Fri, Nov 8",7:00 PM,True,Paycom Center,Rockets
-"Sun, Nov 10",6:00 PM,True,Paycom Center,Warriors
-"Mon, Nov 11",7:00 PM,True,Paycom Center,Clippers
-"Wed, Nov 13",6:30 PM,True,Paycom Center,Pelicans
-"Fri, Nov 15",7:00 PM,True,Paycom Center,Suns
-"Sun, Nov 17",6:00 PM,True,Paycom Center,Mavericks
-"Tue, Nov 19",8:30 PM,False,Frost Bank Center,Spurs
-"Wed, Nov 20",7:00 PM,True,Paycom Center,Trail Blazers
-"Mon, Nov 25",9:00 PM,False,Golden 1 Center,Kings
-"Wed, Nov 27",9:00 PM,False,Chase Center,Warriors
-"Fri, Nov 29",9:00 PM,False,Crypto.com Arena,Lakers
-"Sun, Dec 1",6:00 PM,False,Toyota Center,Rockets
-"Tue, Dec 3",7:00 PM,True,Paycom Center,Jazz
-"Thu, Dec 5",6:30 PM,False,Scotiabank Arena,Raptors
-"Sat, Dec 7",6:00 PM,False,Smoothie King Center,Pelicans
-"Thu, Dec 19",6:00 PM,False,Kia Center,Magic
-"Fri, Dec 20",7:00 PM,False,Kaseya Center,Heat
-"Mon, Dec 23",7:00 PM,True,Paycom Center,Wizards
-"Thu, Dec 26",6:00 PM,False,Gainbridge Fieldhouse,Pacers
-"Sat, Dec 28",5:00 PM,False,Spectrum Center,Hornets
-"Sun, Dec 29",6:00 PM,True,Paycom Center,Grizzlies
-"Tue, Dec 31",7:00 PM,True,Paycom Center,Timberwolves
-"Thu, Jan 2",7:00 PM,True,Paycom Center,Clippers
-"Fri, Jan 3",7:00 PM,True,Paycom Center,Knicks
-"Sun, Jan 5",2:30 PM,True,Paycom Center,Celtics
-"Wed, Jan 8",6:00 PM,False,Rocket Mortgage FieldHouse,Cavaliers
-"Fri, Jan 10",6:30 PM,False,Madison Square Garden,Knicks
-"Sun, Jan 12",5:00 PM,False,Capital One Arena,Wizards
-"Tue, Jan 14",6:00 PM,False,Wells Fargo Center,76ers
-"Thu, Jan 16",7:00 PM,True,Paycom Center,Cavaliers
-"Fri, Jan 17",7:30 PM,False,American Airlines Center,Mavericks
-"Sun, Jan 19",6:00 PM,True,Paycom Center,Nets
-"Wed, Jan 22",7:00 PM,True,Paycom Center,Jazz
-"Thu, Jan 23",7:00 PM,True,Paycom Center,Mavericks
-"Sun, Jan 26",5:00 PM,False,Moda Center,Trail Blazers
-"Wed, Jan 29",9:00 PM,False,Chase Center,Warriors
-"Sat, Feb 1",7:00 PM,True,Paycom Center,Kings
-"Mon, Feb 3",7:00 PM,True,Paycom Center,Bucks
-"Wed, Feb 5",7:00 PM,True,Paycom Center,Suns
-"Fri, Feb 7",7:00 PM,True,Paycom Center,Raptors
-"Sat, Feb 8",7:00 PM,False,FedExForum,Grizzlies
-"Mon, Feb 10",7:00 PM,True,Paycom Center,Pelicans
-"Wed, Feb 12",7:00 PM,True,Paycom Center,Heat
-"Thu, Feb 13",7:30 PM,False,Target Center,Timberwolves
-"Fri, Feb 21",8:30 PM,False,Delta Center,Jazz
-"Sun, Feb 23",8:30 PM,False,Target Center,Timberwolves
-"Mon, Feb 24",7:00 PM,True,Paycom Center,Timberwolves
-"Wed, Feb 26",6:30 PM,False,Barclays Center,Nets
-"Fri, Feb 28",6:30 PM,False,State Farm Arena,Hawks
-"Sun, Mar 2",6:00 PM,False,Frost Bank Center,Spurs
-"Mon, Mar 3",7:00 PM,True,Paycom Center,Rockets
-"Wed, Mar 5",7:00 PM,False,FedExForum,Grizzlies
-"Fri, Mar 7",7:00 PM,True,Paycom Center,Trail Blazers
-"Sun, Mar 9",12:00 PM,True,Paycom Center,Nuggets
-"Mon, Mar 10",7:00 PM,True,Paycom Center,Nuggets
-"Wed, Mar 12",6:30 PM,False,TD Garden,Celtics
-"Sat, Mar 15",6:00 PM,False,Little Caesars Arena,Pistons
-"Sun, Mar 16",8:00 PM,False,Fiserv Forum,Bucks
-"Wed, Mar 19",7:00 PM,True,Paycom Center,76ers
-"Fri, Mar 21",7:00 PM,True,Paycom Center,Hornets
-"Sun, Mar 23",8:00 PM,False,Intuit Dome,Clippers
-"Tue, Mar 25",9:00 PM,False,Golden 1 Center,Kings
-"Thu, Mar 27",7:00 PM,True,Paycom Center,Grizzlies
-"Sat, Mar 29",7:00 PM,True,Paycom Center,Pacers
-"Mon, Mar 31",7:00 PM,True,Paycom Center,Bulls
-"Wed, Apr 2",7:00 PM,True,Paycom Center,Pistons
-"Fri, Apr 4",7:00 PM,False,Toyota Center,Rockets
-"Sun, Apr 6",2:30 PM,True,Paycom Center,Lakers
-"Tue, Apr 8",7:00 PM,True,Paycom Center,Lakers
-"Wed, Apr 9",9:00 PM,False,Footprint Center,Suns
-"Fri, Apr 11",8:30 PM,False,Delta Center,Jazz
-"Sun, Apr 13",2:30 PM,False,Smoothie King Center,Pelicans
+,date,is_home,day,time,arena,team_city,opposing_team,broadcaster
+0,Oct 24,False,Thursday,9:00 PM CDT,"Denver, CO",Denver,Nuggets,TNT
+1,Oct 26,False,Saturday,7:00 PM CDT,"Chicago, IL",Chicago,Bulls,No Broadcast Listed
+2,Oct 27,True,Sunday,6:00 PM CDT,"Oklahoma City, OK",Atlanta,Hawks,No Broadcast Listed
+3,Oct 30,True,Wednesday,8:30 PM CDT,"Oklahoma City, OK",San Antonio,Spurs,ESPN
+4,Nov 1,False,Friday,9:00 PM CDT,"Portland, OR",Portland,Trail Blazers,No Broadcast Listed
+5,Nov 2,False,Saturday,9:30 PM CDT,"Inglewood, CA",LA,Clippers,No Broadcast Listed
+6,Nov 4,True,Monday,8:15 PM CST,"Oklahoma City, OK",Orlando,Magic,No Broadcast Listed
+7,Nov 6,False,Wednesday,8:00 PM CST,"Denver, CO",Denver,Nuggets,No Broadcast Listed
+8,Nov 8,True,Friday,7:00 PM CST,"Oklahoma City, OK",Houston,Rockets,No Broadcast Listed
+9,Nov 10,True,Sunday,6:00 PM CST,"Oklahoma City, OK",Golden State,Warriors,No Broadcast Listed
+10,Nov 11,True,Monday,7:00 PM CST,"Oklahoma City, OK",LA,Clippers,NBA TV
+11,Nov 13,True,Wednesday,6:30 PM CST,"Oklahoma City, OK",New Orleans,Pelicans,ESPN
+12,Nov 15,True,Friday,7:00 PM CST,"Oklahoma City, OK",Phoenix,Suns,No Broadcast Listed
+13,Nov 17,True,Sunday,6:00 PM CST,"Oklahoma City, OK",Dallas,Mavericks,No Broadcast Listed
+14,Nov 19,False,Tuesday,8:30 PM CST,"San Antonio, TX",San Antonio,Spurs,TNT
+15,Nov 20,True,Wednesday,7:00 PM CST,"Oklahoma City, OK",Portland,Trail Blazers,No Broadcast Listed
+16,Nov 25,False,Monday,9:00 PM CST,"Sacramento, CA",Sacramento,Kings,NBA TV
+17,Nov 27,False,Wednesday,9:00 PM CST,"San Francisco, CA",Golden State,Warriors,ESPN
+18,Nov 29,False,Friday,9:00 PM CST,"Los Angeles, CA",Los Angeles,Lakers,ESPN
+19,Dec 1,False,Sunday,6:00 PM CST,"Houston, TX",Houston,Rockets,No Broadcast Listed
+20,Dec 3,True,Tuesday,7:00 PM CST,"Oklahoma City, OK",Utah,Jazz,No Broadcast Listed
+21,Dec 5,False,Thursday,6:30 PM CST,"Toronto, ON",Toronto,Raptors,No Broadcast Listed
+22,Dec 7,False,Saturday,6:00 PM CST,"New Orleans, LA",New Orleans,Pelicans,No Broadcast Listed
+23,Dec 19,False,Thursday,6:00 PM CST,"Orlando, FL",Orlando,Magic,TNT
+24,Dec 20,False,Friday,7:00 PM CST,"Miami, FL",Miami,Heat,No Broadcast Listed
+25,Dec 23,True,Monday,7:00 PM CST,"Oklahoma City, OK",Washington,Wizards,No Broadcast Listed
+26,Dec 26,False,Thursday,6:00 PM CST,"Indianapolis, IN",Indiana,Pacers,NBA TV
+27,Dec 28,False,Saturday,5:00 PM CST,"Charlotte, NC",Charlotte,Hornets,NBA TV
+28,Dec 29,True,Sunday,6:00 PM CST,"Oklahoma City, OK",Memphis,Grizzlies,No Broadcast Listed
+29,Dec 31,True,Tuesday,7:00 PM CST,"Oklahoma City, OK",Minnesota,Timberwolves,NBA TV
+30,Jan 2,True,Thursday,7:00 PM CST,"Oklahoma City, OK",LA,Clippers,No Broadcast Listed
+31,Jan 3,True,Friday,7:00 PM CST,"Oklahoma City, OK",New York,Knicks,NBA TV
+32,Jan 5,True,Sunday,2:30 PM CST,"Oklahoma City, OK",Boston,Celtics,No Broadcast Listed
+33,Jan 8,False,Wednesday,6:00 PM CST,"Cleveland, OH",Cleveland,Cavaliers,No Broadcast Listed
+34,Jan 10,False,Friday,6:30 PM CST,"New York, NY",New York,Knicks,No Broadcast Listed
+35,Jan 12,False,Sunday,5:00 PM CST,"Washington, DC",Washington,Wizards,No Broadcast Listed
+36,Jan 14,False,Tuesday,6:00 PM CST,"Philadelphia, PA",Philadelphia,76ers,No Broadcast Listed
+37,Jan 16,True,Thursday,7:00 PM CST,"Oklahoma City, OK",Cleveland,Cavaliers,No Broadcast Listed
+38,Jan 17,False,Friday,7:30 PM CST,"Dallas, TX",Dallas,Mavericks,No Broadcast Listed
+39,Jan 19,True,Sunday,6:00 PM CST,"Oklahoma City, OK",Brooklyn,Nets,No Broadcast Listed
+40,Jan 22,True,Wednesday,7:00 PM CST,"Oklahoma City, OK",Utah,Jazz,No Broadcast Listed
+41,Jan 23,True,Thursday,7:00 PM CST,"Oklahoma City, OK",Dallas,Mavericks,No Broadcast Listed
+42,Jan 26,False,Sunday,5:00 PM CST,"Portland, OR",Portland,Trail Blazers,No Broadcast Listed
+43,Jan 29,False,Wednesday,9:00 PM CST,"San Francisco, CA",Golden State,Warriors,ESPN
+44,Feb 1,True,Saturday,7:00 PM CST,"Oklahoma City, OK",Sacramento,Kings,No Broadcast Listed
+45,Feb 3,True,Monday,7:00 PM CST,"Oklahoma City, OK",Milwaukee,Bucks,No Broadcast Listed
+46,Feb 5,True,Wednesday,7:00 PM CST,"Oklahoma City, OK",Phoenix,Suns,No Broadcast Listed
+47,Feb 7,True,Friday,7:00 PM CST,"Oklahoma City, OK",Toronto,Raptors,No Broadcast Listed
+48,Feb 8,False,Saturday,7:00 PM CST,"Memphis, TN",Memphis,Grizzlies,No Broadcast Listed
+49,Feb 10,True,Monday,7:00 PM CST,"Oklahoma City, OK",New Orleans,Pelicans,No Broadcast Listed
+50,Feb 12,True,Wednesday,7:00 PM CST,"Oklahoma City, OK",Miami,Heat,No Broadcast Listed
+51,Feb 13,False,Thursday,7:30 PM CST,"Minneapolis, MN",Minnesota,Timberwolves,TNT
+52,Feb 21,False,Friday,8:30 PM CST,"Salt Lake City, UT",Utah,Jazz,No Broadcast Listed
+53,Feb 23,False,Sunday,8:30 PM CST,"Minneapolis, MN",Minnesota,Timberwolves,ESPN
+54,Feb 24,True,Monday,7:00 PM CST,"Oklahoma City, OK",Minnesota,Timberwolves,NBA TV
+55,Feb 26,False,Wednesday,6:30 PM CST,"Brooklyn, NY",Brooklyn,Nets,No Broadcast Listed
+56,Feb 28,False,Friday,6:30 PM CST,"Atlanta, GA",Atlanta,Hawks,No Broadcast Listed
+57,Mar 2,False,Sunday,6:00 PM CST,"San Antonio, TX",San Antonio,Spurs,ESPN
+58,Mar 3,True,Monday,7:00 PM CST,"Oklahoma City, OK",Houston,Rockets,No Broadcast Listed
+59,Mar 5,False,Wednesday,7:00 PM CST,"Memphis, TN",Memphis,Grizzlies,No Broadcast Listed
+60,Mar 7,True,Friday,7:00 PM CST,"Oklahoma City, OK",Portland,Trail Blazers,No Broadcast Listed
+61,Mar 9,True,Sunday,12:00 PM CDT,"Oklahoma City, OK",Denver,Nuggets,ABC
+62,Mar 10,True,Monday,7:00 PM CDT,"Oklahoma City, OK",Denver,Nuggets,NBA TV
+63,Mar 12,False,Wednesday,6:30 PM CDT,"Boston, MA",Boston,Celtics,ESPN
+64,Mar 15,False,Saturday,6:00 PM CDT,"Detroit, MI",Detroit,Pistons,No Broadcast Listed
+65,Mar 16,False,Sunday,8:00 PM CDT,"Milwaukee, WI",Milwaukee,Bucks,ESPN
+66,Mar 19,True,Wednesday,7:00 PM CDT,"Oklahoma City, OK",Philadelphia,76ers,No Broadcast Listed
+67,Mar 21,True,Friday,7:00 PM CDT,"Oklahoma City, OK",Charlotte,Hornets,No Broadcast Listed
+68,Mar 23,False,Sunday,8:00 PM CDT,"Inglewood, CA",LA,Clippers,NBA TV
+69,Mar 25,False,Tuesday,9:00 PM CDT,"Sacramento, CA",Sacramento,Kings,TNT
+70,Mar 27,True,Thursday,7:00 PM CDT,"Oklahoma City, OK",Memphis,Grizzlies,No Broadcast Listed
+71,Mar 29,True,Saturday,7:00 PM CDT,"Oklahoma City, OK",Indiana,Pacers,No Broadcast Listed
+72,Mar 31,True,Monday,7:00 PM CDT,"Oklahoma City, OK",Chicago,Bulls,No Broadcast Listed
+73,Apr 2,True,Wednesday,7:00 PM CDT,"Oklahoma City, OK",Detroit,Pistons,No Broadcast Listed
+74,Apr 4,False,Friday,7:00 PM CDT,"Houston, TX",Houston,Rockets,No Broadcast Listed
+75,Apr 6,True,Sunday,2:30 PM CDT,"Oklahoma City, OK",Los Angeles,Lakers,NBA TV
+76,Apr 8,True,Tuesday,7:00 PM CDT,"Oklahoma City, OK",Los Angeles,Lakers,No Broadcast Listed
+77,Apr 9,False,Wednesday,9:00 PM CDT,"Phoenix, AZ",Phoenix,Suns,No Broadcast Listed
+78,Apr 11,False,Friday,8:30 PM CDT,"Salt Lake City, UT",Utah,Jazz,No Broadcast Listed
+79,Apr 13,False,Sunday,2:30 PM CDT,"New Orleans, LA",New Orleans,Pelicans,No Broadcast Listed

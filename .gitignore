@@ -1,4 +1,7 @@
+data/
+.venv/
 .vscode
 html/
 .env
 .scripts/
+*.pyc
