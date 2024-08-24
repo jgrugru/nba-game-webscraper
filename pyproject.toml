@@ -1,5 +1,5 @@
 [project]
-name = "okc-thunder-calendar"
+name = "nba-game-webscraper"
 version = "0.0.1"
 description = "Webscraping tool to grab NBA games from nba.com and format into a csv."
 readme = "README.md"
