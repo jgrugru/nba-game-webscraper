@@ -1,62 +1,59 @@
-import os
-from datetime import date
+import json
+import re
+from datetime import date, datetime
+from zoneinfo import ZoneInfo
 
 import pandas as pd
-from bs4 import BeautifulSoup
-from devtools import debug
-from selenium import webdriver
+import requests
 
 from nba_game_webscraper.thunder_game import ThunderGame
 
 NBA_TEAM = "thunder"
 NBA_URL = f"https://www.nba.com/{NBA_TEAM}/schedule"
 CURRENT_YEAR = date.today().year
-HTML_FILEPATH = f"data/{CURRENT_YEAR}_raw_html_{NBA_TEAM}.html"
 GAMES_FILEPATH_CSV = f"data/{NBA_TEAM}_{CURRENT_YEAR}_games.csv"
+LOCAL_TZ = ZoneInfo("America/Chicago")
+USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
 
 
-def get_games_html() -> BeautifulSoup:
-    driver = webdriver.Chrome()
-    driver.get(url=NBA_URL)
-    soup = BeautifulSoup(driver.page_source, features="html.parser")
-    driver.quit()
-    with open(HTML_FILEPATH, "w") as file:
-        file.write(str(soup))
-    return soup
+def get_schedule_json() -> list[dict]:
+    """The schedule page is a Next.js app; the games are embedded in the __NEXT_DATA__ script tag."""
+    html = requests.get(NBA_URL, headers={"User-Agent": USER_AGENT}, timeout=30).text
+    match = re.search(
+        r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', html, re.S
+    )
+    data = json.loads(match.group(1))
+    return data["props"]["pageProps"]["scheduleData"]["schedule"]
 
 
-def get_html_from_file() -> BeautifulSoup:
-    if not os.path.exists(HTML_FILEPATH):
-        return get_games_html()
+def broadcaster_text(broadcasters: dict, is_home: bool) -> str:
+    local_key = "homeTvBroadcasters" if is_home else "awayTvBroadcasters"
+    names = [
+        b["broadcasterDisplay"]
+        for b in broadcasters["nationalBroadcasters"] + broadcasters[local_key]
+    ]
+    return "/".join(names) if names else "No Broadcast Listed"
 
-    with open(file=HTML_FILEPATH, mode="r") as file:
-        soup = BeautifulSoup(file.read(), features="html.parser")
-    return soup
+
+def to_thunder_game(game: dict) -> ThunderGame:
+    is_home = game["homeTeam"]["teamSlug"] == NBA_TEAM
+    opponent = game["awayTeam"] if is_home else game["homeTeam"]
+    tip_off = datetime.fromisoformat(game["gameTimeUTC"]).astimezone(LOCAL_TZ)
+    return ThunderGame(
+        date=tip_off.strftime("%b %d"),
+        is_home=is_home,
+        day=tip_off.strftime("%A"),
+        time=tip_off.strftime("%I:%M %p %Z").lstrip("0"),
+        arena=f"{game['arenaCity']}, {game['arenaState']}",
+        team_city=opponent["teamCity"],
+        opposing_team=opponent["teamName"],
+        broadcaster=broadcaster_text(game["broadcasters"], is_home),
+        label=game["gameLabel"] or "Regular Season",
+    )
 
 
 if __name__ == "__main__":
-    soup = get_html_from_file()
-    div = list(soup.find("main").find("div").children)[2]
-    uls = div.find_all("ul")
-
-    list_of_games: list[ThunderGame] = []
-    for ul in uls:
-        games = ul.find_all("div", class_="my-6")
-
-        for game in games:
-            date = game.find("div", {"data-testid": "date"}).text
-            is_home = False if game.find("span", {"data-testid": "schedule-item-type"}).text.lower() == "away" else True
-            day = game.find("div", {"data-testid": "day"}).text
-            time = game.find("div", {"data-testid": "time"}).text
-            arena = game.find("div", {"data-testid": "arena-location"}).text
-            team_city = game.find("p", {"data-testid": "team-city"}).text
-            team_name = game.find("p", {"data-testid": "team-name"}).text
-            broadcaster = "No Broadcast Listed" if game.find("span", {"data-testid": "broadcaster"}) is None else game.find("span", {"data-testid": "broadcaster"}).text
-
-            new_game = ThunderGame(date=date, is_home=is_home, day=day, time=time, arena=arena, team_city=team_city, opposing_team=team_name, broadcaster=broadcaster)
-            debug(new_game)
-            list_of_games.append(new_game)
-
-    df = pd.DataFrame([game.model_dump() for game in list_of_games])
+    games = [to_thunder_game(g) for g in get_schedule_json()]
+    df = pd.DataFrame([game.model_dump() for game in games])
     df.to_csv(GAMES_FILEPATH_CSV, index=False)
     print(df)

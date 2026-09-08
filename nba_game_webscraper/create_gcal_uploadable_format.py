@@ -30,10 +30,9 @@ if __name__ == "__main__":
     for index, row in df.iterrows():
         print(row)
         dt = parse_date_str(f"{row['day']}, {row['date']} {row['time']}")
-        if dt.month < 5 and dt.month > 0:
-            dt = datetime(2026, dt.month, dt.day, dt.hour, dt.minute)
-        else:
-            dt = datetime(2025, dt.month, dt.day, dt.hour, dt.minute)
+        # Season spans two calendar years: Jul-Dec are in CURRENT_YEAR, Jan-Jun the year after.
+        year = CURRENT_YEAR if dt.month >= 7 else CURRENT_YEAR + 1
+        dt = datetime(year, dt.month, dt.day, dt.hour, dt.minute)
         event = Event(
             Subject=f"Thunder v. {row['opposing_team']} @ {row['arena']}",
             Start_Date=dt.strftime("%m/%d/%Y"),

@@ -5,11 +5,12 @@ description = "Webscraping tool to grab NBA games from nba.com and format into a
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "beautifulsoup4>=4.12.3",
     "pandas>=2.2.2",
     "pydantic>=2.8.2",
     "devtools>=0.12.2",
-    "selenium>=4.23.1",
+    "requests>=2.34.2",
+    "gcsa>=2.7.0",
+    "python-dotenv>=1.2.3",
 ]
 
 [build-system]
@@ -25,3 +26,10 @@ dev = [
     "pytest>=8.4.2",
     "ruff>=0.14.0",
 ]
+
+[[tool.uv.index]]
+url = "https://pypi.org/simple"
+
+[[tool.uv.index]]
+url = "https://captionpartnersllc.jfrog.io/artifactory/api/pypi/pypi-local/simple"
+default = true

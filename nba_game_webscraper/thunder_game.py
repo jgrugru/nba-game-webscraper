@@ -10,3 +10,4 @@ class ThunderGame(BaseModel):
     team_city: str
     opposing_team: str
     broadcaster: str
+    label: str
